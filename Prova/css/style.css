@@ -1,0 +1,122 @@
+/* Font para texto sobre si mesmo */
+@import url('https://fonts.googleapis.com/css2?family=Flow+Circular&display=swap');
+
+/* Font h1 */
+@import url('https://fonts.googleapis.com/css2?family=Flow+Circular&family=Oswald:wght@300&display=swap');
+
+/* Font titulo */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+/* Font li */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+
+
+#foto-de-perfil{
+    border-radius: 30px;
+}
+
+#sobre-si {
+    margin: 3px 3rem;
+    font-family: 'Flow Circular', cursive;
+}
+
+#font-titulo{
+    font-family: 'Roboto Slab', serif;
+    font-size: 2.5rem;
+    color: red;
+    font-weight: 700;
+}
+
+
+
+
+.conteiner-name{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.name{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.foto{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+}
+
+.section-informaçõesp{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.infop{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sobresi{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+}
+
+
+body{
+    background-color: rgba(224, 224, 224, 0.952);
+}
+
+header{
+    background-image: url(./imagem/cyberpunk.jpg);
+}
+
+article h2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
+    margin: 1rem;
+}
+
+h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
+    margin: 1rem;
+}
+
+ul{
+    font-size: 1.8rem;
+    margin: 1rem;
+}
+
+li{
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2rem;
+    margin: 8px;
+}
+
+footer{
+    background-color: black;
+}
+
+footer p{
+    color: white;
+    font-weight: 800;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+a :hover{
+    color: red;
+}
